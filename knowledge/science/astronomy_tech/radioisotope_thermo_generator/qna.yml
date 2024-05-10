@@ -1,0 +1,19 @@
+created_by: 
+domain: astronomy_technology
+seed_examples:
+- answer: There have been 8 earth orbiting missions that have used radioisotope power, 8 missions to the outer planets, and the Apollo missions after Apollo 11 to the moon. The outer Solar System missions were Pioneer 10 and 11, Voyager 1 and 2, Ulysses, Galileo, Cassini, and New Horizons. The RTGs on Voyager 1 and 2 have been operating since 1977. Over the last four decades, 26 missions and 45 RTGs have been launched by the United States
+  question: How many American missions have used radioisotope power?
+- answer: Voyager only had the first two missions, to the best of my knowledge. V'ger developed from the Voyager 6 mission. It is unknown if it used radioisotope power, but it seems likely.
+  question: Did V'ger use radioisotope power?
+- answer: The SNAP-19 design powered Pioneer 10 and 11, as well as Viking 1 and 2 landers
+  question: What missions did SNAP-19 power?
+- answer: Who designed SNAP-19?
+  question: SNAP-19 was developed by Teledyne Energy Systems
+- answer: MMRTG is powered by eith Pu-238 dioxide general-purpose heat source (GPHS) modules provided by the US Department of energy
+  question: How is MMRTG powered?
+task_description: 'The multi-mission radioisotope thermoelectric generator (MMRTG) is a type of radioisotope thermoelectric generator (RTG) developed for NASA space missions such as the Mars Science Laboratory (MSL)'
+document: 
+ repo: https://github.com/juliadenham/Summit_knowledge
+ commit: 95176e7e83e80dfaed8ff7e621071881c598884b
+ patterns:
+   - multi_mission_radioisotope_thermoelectric_generator.md
